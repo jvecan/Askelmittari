@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Askelmittari</string>
+    <string name="askelmittari_notification_title">Askelmittari</string>
+    <string name="askelmittari_notification_message">Askeleet tänään: </string>
+    <string name="askelmittari_pituus_title">Pituuden asettaminen</string>
+    <string name="askelmittari_pituus_message">Anna pituutesi: </string>
+    <string name="askelmittari_pituus_ok">Aseta pituus</string>
+    <string name="askelmittari_pituus_peruuta">Peruuta</string>
+    <string name="askelmittari_pituus_muuta">Muuta</string>
+    <string name="askelmittari_aloitus_pvm_otsikko">Tehtävän aloituspäivä: </string>
+    <string name="askelmittari_lopetus_pvm_otsikko">Viimeinen laskettava päivä: </string>
+</resources>

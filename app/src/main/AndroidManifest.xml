@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="iikka.com.askelmittari">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="iikka.com.askelmittari.TOOL_activity_Askelmittari">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".AddReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.evernote.android.job.ADD_JOB_CREATOR"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.evernote.android.job.JobRescheduleService"
+            android:exported="false"/>
+
+        <service
+            android:name=".TOOL_service_StepCounterService"
+            android:enabled="true"
+            android:exported="false"/>
+
+
+
+
+
+    </application>
+
+</manifest>
